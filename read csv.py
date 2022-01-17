@@ -2,7 +2,7 @@ import sqlite3 as sqlite
 import os
 import pandas as pd
 #conn = sqlite.connect('orders.db')
-#cursor = conn.cursor()
+cursor = conn.cursor()
 download_path = "C:/Users/gratt/Desktop/IDS2"
 files = os.listdir(download_path)
 df = pd.DataFrame()

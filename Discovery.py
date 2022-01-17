@@ -131,7 +131,7 @@ def merge_ftp_files():
     #weekly_range_df.set_index('ORDERDATE')
 #def delete_dusplicate():
 
-GUI_interface_tkinter()
-#get_abe_ftp_files()
-#merge_ftp_files()
+#GUI_interface_tkinter()
+get_abe_ftp_files()
+merge_ftp_files()
 #end_email('Hello', 'Its miky!!!!')
